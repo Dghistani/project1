@@ -2,5 +2,24 @@ body{
     text-align: center;
     display: inline-block;
     padding: 25px;
+    background-size: 10px;
+    background-image: url('https://steamcdn-a.akamaihd.net/steam/apps/720250/header.jpg?t=1524157842');
+    -webkit-background-size: cover;
+    margin: 0;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    color: red
     
 }
+
+.button
+{
+    background-color: rgb(255, 7, 7);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-align: center
+
+}
+

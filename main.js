@@ -3,7 +3,7 @@ let win = [
   ["1", "4", "7"], ["2", "5", "8"], ["3", "6", "9"],
   ["1", "5", "9"], ["3", "5", "7"]
 ]
-i = 0
+// i = 0
 let player1 = []
 let player2 = []
 var click =0
@@ -31,7 +31,7 @@ win1 = false
 // players
 $(".col").click(function (e) {
 
-let x = false;
+// let x = false;
   if (!$(this).hasClass("clicked")) {
     if (flag) {
       $(this).html("X");
